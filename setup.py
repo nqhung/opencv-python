@@ -188,6 +188,7 @@ def main():
             "-DBUILD_PERF_TESTS=OFF",
             "-DBUILD_DOCS=OFF",
             "-DPYTHON3_LIMITED_API=OFF",
+            "-DPy_LIMITED_API=0x03090000",
             "-DBUILD_OPENEXR=ON",
         ]
         + (
